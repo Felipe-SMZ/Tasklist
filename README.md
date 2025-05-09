@@ -24,22 +24,4 @@ Um aplicativo simples de gerenciamento de tarefas desenvolvido com **Java Spring
 - CSS3  
 - JavaScript  
 
-## 🚀 Como Executar o Projeto
 
-### 1. Clone o repositório
-
-git clone https://github.com/seu-usuario/tasklist-app.git
-
-cd tasklist-app
-
-2. Configure o banco de dados MySQL
-
-Crie um banco chamado tasklist:
-
-CREATE DATABASE tasklist;
-
-Edite o arquivo src/main/resources/application.properties com suas credenciais do MySQL:
-spring.datasource.url=jdbc:mysql://localhost:3306/tasklist
-spring.datasource.username=seu_usuario
-spring.datasource.password=sua_senha
-spring.jpa.hibernate.ddl-auto=update
